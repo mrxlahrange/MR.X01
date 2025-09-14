@@ -3,18 +3,9 @@
 body {
   background-color: #000;
   color: #fff;
-  font-family: Arial, sans-serif;
-}
-
-a {
-  color: #fff;
-
-}
-
-a:hover {
-  color: red;
-}
   
+}
+
 # Welcome and coding C .
 * **Discription**  
 
