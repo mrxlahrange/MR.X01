@@ -7,72 +7,66 @@ body {
 }
 
 a {
-  color: #ccc;
-  text-decoration: none;
+  color: #fff;
+
 }
 
 a:hover {
-  color: #fff;
+  color: red;
 }
-
-button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #444;
-}
-</style>
 
 # Welcome and coding C .
+* **Discription**  
 
-* **Discription**
-**The Little Prince" by Antoine de Saint-Exupéry – A poetic tale with deep philosophical themes, perfect for all ages. "Animal Farm" by George Orwell – A short allegorical novella about power and politics. "Of Mice and Men" by John Steinbeck – A moving story of friendship and dreams. Would you prefer something fictional, educational, or religious? I can help you find the perfect short read.**
+**The Little Prince" by Antoine de Saint-Exupéry – A poetic tale with deep philosophical themes, perfect for all ages.
+"Animal Farm" by George Orwell – A short allegorical novella about power and politics.
+"Of Mice and Men" by John Steinbeck – A moving story of friendship and dreams.  
+Would you prefer something fictional, educational, or religious? I can help you find the perfect short read.**  
 
-`let = 0;`
+
+ `let = 0;`    
 `printf("hello");`
-
 ## Parte 1 :
-css
+```css
 *{
-  margin: 0;
-  padding: 0;
-}
-.page1{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 100vh;
-}
-.hed1{
-  background: #333;
-  color: white;
-}
-.hed2{
-  background: rgb(38, 113, 32);
-}
-
-
+    margin: 0;
+    padding: 0;
+  }
+  .page1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+  }
+  .hed1{
+    background: #000;
+    color: white;
+  }
+  .hed2{
+    background: rgb(38, 113, 32);
+  }
+```
 ## Parte 2 :
 
+```c
 #include<stdio.h>
 int main(){
-  int x;
-  FILE *file = fopen("txt.txt","a");
-  if (file == NULL) {
-    printf("ERROR OPEN FILE !");
-    return 0;
-  }
-  fprintf(file,"hhhhhhhhhhh",x);
-  fclose(file);
+    int x;
+FILE *file = fopen("txt.txt","a");
+if (file == NULL)
+{
+  printf("ERROR OPEN FILE !");
+  return 0;
+
+}
+fprintf(file,"hhhhhhhhhhh",x);
+fclose(file);
+
 }
 
-
+```
 ## Parte 3 :
 
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,7 +96,7 @@ int main(){
     height: 100vh;
   }
   .hed1{
-    background: #333;
+    background: #000;
     color: white;
   }
   .hed2{
