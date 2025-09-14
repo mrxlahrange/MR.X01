@@ -92,3 +92,7 @@ fclose(file);
 </style>
 </html>
 ```
+<style>
+   background: #000;
+    color: white;
+  </style>
