@@ -4,6 +4,17 @@ body {
   color: #fff;
   
 }
+  
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+
 </style>
 
 # Welcome and coding C .
