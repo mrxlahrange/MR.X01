@@ -1,18 +1,5 @@
 <style>
-body {
-  background-color: #000;
-  color: #fff;
-  
-}
-  
-a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #fff;
-}
+body{background-color:#fff;color:#000}
 
 
 </style>
